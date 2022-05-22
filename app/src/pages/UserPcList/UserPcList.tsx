@@ -1,6 +1,6 @@
 import React, {FC, useEffect, useState} from 'react'
 import Title from '../../UI/Title/Title.style'
-import { Styled } from '../ParkingList/ParkingList.style'
+import { Styled } from '../PcList/PcList.style'
 import { useNavigate } from 'react-router-dom'
 import { checkSession } from '../../utils/checkSession'
 import { API_URL } from '../../utils/API/urls'

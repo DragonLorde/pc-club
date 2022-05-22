@@ -1,7 +1,7 @@
 import React, { useCallback, useEffect, useState } from 'react'
 import axios from 'axios'
 import { API_URL } from '../../utils/API/urls'
-import { Styled } from '../ParkingList/ParkingList.style'
+import { Styled } from '../PcList/PcList.style'
 import Title from '../../UI/Title/Title.style'
 import ListContainer from '../../UI/List/List.style'
 import Input from '../../UI/Input/Input'

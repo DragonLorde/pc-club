@@ -19,7 +19,7 @@ const DashBoard:FC = () => {
   useEffect(() => {
     const session = checkSession('user')
     if(!session) {
-      nav('/login')
+      nav('/start')
       return
     }
     setCurrentSesion(session)    
